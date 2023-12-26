@@ -1,0 +1,71 @@
+body {
+  font-family: 'Quicksand', sans-serif; /* Use Quicksand or another boho-friendly font */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f2ebd3; /* Light beige background color */
+  color: #4d4d4d; /* Dark gray main text color */
+}
+
+.container {
+  text-align: center;
+  background-color: #fff9e6; /* Creamy white background */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.app-title-container {
+  background-image: url('C:\Users\sarai.ayon\Desktop\New folder');
+  background-size: cover;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.app-title {
+  color: #B76E79; /* Teal color for the app title */
+  margin-bottom: 10px;
+  font-size: 3.5em; /* Increase font size for emphasis */
+}
+
+.section {
+  background-color: #ffe0b2; /* Light orange background for sections */
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  color: #795548; /* Brown color for section titles */
+  margin-bottom: 10px;
+}
+
+#startButton {
+  margin-top: 20px;
+  background-color: #4caf50; /* Green color for the button */
+  color: #fff; /* White text color for the button */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+#startButton:hover {
+  background-color: #388e3c; /* Darker green on hover */
+}
+
+.cta-button {
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Add more styling as needed */
